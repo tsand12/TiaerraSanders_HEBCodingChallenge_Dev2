@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.4;
+}
+body{
+    font-family: 'varela round', sans-serif;
+}
+
+/* form{
+	padding:0;
+	margin:0;
+} */
+ /* header, footer{
+    padding: 60px; 
+    margin:0;
+    
+}  */
+
+
+
+button {
+  border: 1px solid #0066cc;
+  background-color: #0099cc;
+  color: #ffffff;
+  /* padding: 5px 10px; */
+ 
+ /*  padding: 20px;  */
+   
+    height: 40px;
+  border-radius: 15px;
+}
+
+button:hover {
+  border: 1px solid #0099cc;
+  background-color: #00aacc;
+  color: #ffffff;
+ /*  padding: 5px 10px; */
+}
+
+
+ #singleSearch{
+	border-radius: 15px 20px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 50%;
+    height: 10px; 
+    margin-bottom:5px;
+}
+
+ main {
+	flex-direction: column;
+  	justify-content: flex-start;
+  	margin-top:25px;
+	align-items: center;
+	display: flex;
+	height: 90%;
+}
+
+header{
+	flex-direction: column, row;
+  	justify-content: center;
+	align-items: center;
+	background-color: #896bb3;
+    color: #ffffff;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	
+}
+
+footer{
+	height:10%;
+	background-color:#896bb3;
+	display:flex;
+	opacity:0.5;
+	
+}
+
+ .advancedSearchText{
+	border-radius: 8px;
+    background: #ffffff;
+    padding: 15px; 
+    width: 30%;
+    height: 10px; 
+    margin-bottom:10px;
+} 
+table {  
+    color: #333;
+    margin-top:20px;
+    width: 50%; 
+    border-collapse: collapse; border-spacing: 0; 
+}
+
+td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    text-align: center;
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+th {  
+    background: #0099cc;  /* Darken header a bit */
+	color:white;
+}
+
+td {  
+    background: #FAFAFA;
+    
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+#table.ng-enter{
+	animation: slideInDown 1s;
+}
+
+#noResults{
+	color:red;
+	position:absolute;
+	text-size:40px;
+	
+}
+h6.ng-enter{
+	animation: fadeIn 2s;
+}
